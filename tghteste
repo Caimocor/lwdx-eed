@@ -1,0 +1,3 @@
+ Dim rpt As Report
+ Set rpt = CreateReport(Tabela1) ' Create minimized report.
+ DoCmd.OpenReport "Formulário1", acViewReport
