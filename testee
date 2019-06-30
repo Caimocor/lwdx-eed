@@ -1,5 +1,0 @@
-Sub teste()
-
-    Workbooks.Open (Application.ThisWorkbook.Path & Application.PathSeparator & "planilha_1")
-    Debug.Print (Workbooks.Count)
-End Sub
